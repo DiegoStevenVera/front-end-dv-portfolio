@@ -1,0 +1,186 @@
+{
+  "basic_info": {
+    "name": "Diego Vera",
+    "titles": [
+      "Data Scientist",
+      "Data Analyst",
+      "Backend Dev"
+    ],
+    "socials": [
+      {
+        "icon": "mdi:linkedin",
+        "url": "https://www.linkedin.com/in/diegosverav/"
+      },
+      {
+        "icon": "mdi:github",
+        "url": "https://github.com/DiegoStevenVera"
+      }
+    ]
+  },
+  "about_me": {
+    "title": "Acerca de mi",
+    "greeting": "Hey",
+    "content": "Soy Diego Vera, ingeniero de software...",
+    "image": "myProfile.jpg",
+    "tech_stacks": ["devicon:python", "ph:file-sql", "devicon:fastapi", "devicon:react"]
+  },
+  "projects": {
+    "title": "Proyectos Personales",
+    "projects": [
+      {
+        "title": "Análisis historial Youtube",
+        "startDate": "2023",
+        "description": "Un análisis realizado para ver los videos que más he visto desde hace años en Youtube, aplicando NLP para reconocer los tópicos frecuentes. Para su visualización se usó Bar Chart Race para conocer cómo cambiaron los videos que usualmente veía en Youtube a través de los años.",
+        "images": [
+          "images/portfolio/da-youtube/project_da_youtube.png",
+          "images/portfolio/da-youtube/p2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon:python",
+            "name": "Python"
+          },
+          {
+            "class": "devicon:pandas",
+            "name": "Pandas"
+          }
+        ]
+      },
+      {
+        "title": "TicTacToe",
+        "startDate": "2023",
+        "description": "Una plataforma web en donde se puede jugar contra una IA al juego TicTacToe, 3 en raya o michi, como es conocido en otros lugares. El modelo de Inteligencia Artificial se entrenó con muchas iteraciones de juegos en base a prueba y error usando Aprendizaje Reforzado. El modelo se desarrolló con Python, el backend con FastAPI y el frontend con React.",
+        "images": [
+          "images/portfolio/tictactoe/tictactoe_0.png",
+          "images/portfolio/tictactoe/tictactoe_1.png"
+        ],
+        "url": "https://github.com/DiegoStevenVera/tictactoe",
+        "technologies": [
+          {
+            "class": "devicon:python",
+            "name": "Python"
+          },
+          {
+            "class": "devicon:react",
+            "name": "React"
+          },
+          {
+            "class": "devicon:fastapi",
+            "name": "FastAPI"
+          }
+        ]
+      },
+      {
+        "title": "Name It!",
+        "startDate": "2023",
+        "description": "Este es el primer proyecto personal que realicé, es una página web en donde se puede subir una imagen de algún animal y te responderá un nombre gracioso según el animal. Usa un modelo ResNET para el reconocimiento de la imagen y luego un modelo generativo LSTM para formar el nombre del animal. El modelo fue desarrollado en Python, el backend en FastAPI y el frontend con React.",
+        "images": [
+          "images/portfolio/name-it/nameit_1.JPG",
+          "images/portfolio/name-it/nameit_2.JPG"
+        ],
+        "url": "https://github.com/DiegoStevenVera/name_it",
+        "technologies": [
+          {
+            "class": "devicon:python",
+            "name": "Python"
+          },
+          {
+            "class": "devicon:react",
+            "name": "React"
+          },
+          {
+            "class": "devicon:fastapi",
+            "name": "FastAPI"
+          }
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Habilidades",
+    "icons": [
+      {
+        "name": "Python",
+        "class": "la:python",
+        "level": "95"
+      },
+      {
+        "name": "SQL",
+        "class": "mdi:sql-query",
+        "level": "95"
+      },
+      {
+        "name": "R",
+        "class": "simple-icons:r",
+        "level": "85"
+      },
+      {
+        "name": "PowerBI",
+        "class": "simple-icons:powerbi",
+        "level": "80"
+      },
+      {
+        "name": "Qlik Sense",
+        "class": "simple-icons:qlik",
+        "level": "70"
+      },
+      {
+        "name": "AWS",
+        "class": "mdi:aws",
+        "level": "60"
+      },
+      {
+        "name": "React",
+        "class": "mdi:react",
+        "level": "80"
+      },
+      {
+        "name": "JavaScript",
+        "class": "teenyicons:javascript-solid",
+        "level": "70"
+      },
+      {
+        "name": "FastAPI",
+        "class": "simple-icons:fastapi",
+        "level": "75"
+      },
+      {
+        "name": "Django",
+        "class": "bxl:django",
+        "level": "65"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experiencia laboral",
+    "experiences": [
+      {
+        "company": "Protecta Security",
+        "title": "Data Scientist Jr.",
+        "years": "Feb/2022 - Actualidad",
+        "mainTech": "Análisis",
+        "mainTechIcon": "icon-park-solid:analysis",
+        "technologies": [
+          "Python",
+          "R",
+          "Oracle",
+          "Qlik Sense",
+          "AWS",
+          "Visual Studio SSIS",
+          "Metabase",
+          "Excel"
+        ]
+      },
+      {
+        "company": "Ministerio Público del Perú",
+        "title": "Analista - Data Scientist Jr.",
+        "years": "Ene/2021 - Dic/2021",
+        "mainTech": "Programación",
+        "mainTechIcon": "solar:programming-bold",
+        "technologies": ["Python", "VueJS", "FastAPI", "Metabase", "Apache AirFlow"]
+      }
+    ]
+  },
+  "copyright": "Copyright"
+}
