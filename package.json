@@ -1,6 +1,6 @@
 {
-  "name": "react-frontend-dev-portfolio",
-  "homepage": "https://facebook.com",
+  "name": "portfolio-diego-vera",
+  "homepage": "https://diegostevenvera.github.io/front-end-dv-portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -39,7 +39,7 @@
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
-    "gh-pages": "^6.0.0",
+    "gh-pages": "^6.1.0",
     "postcss": "^8.4.31",
     "prettier": "^3.0.1",
     "prettier-plugin-tailwindcss": "^0.4.1",

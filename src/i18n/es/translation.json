@@ -20,7 +20,7 @@
   "about_me": {
     "title": "Acerca de mi",
     "greeting": "Hey",
-    "content": "Soy Diego Vera, ingeniero de software...",
+    "content": "Soy Diego Vera, Ingeniero de Software graduado de la Universidad Nacional Mayor de San Marcos y actualmente me desempeño como Data Scientist. Poseo 3 años de experiencia con programación y analítica de datos realizando dashboards BI, construcción de ETLs, construcción de modelos de Machine Learning, desarrollo web Backend y Frontend. Dentro de mis gusto personales y hobbies disfruto de jugar videojuegos como Hollow Knight, juegos de mesa como Catan y dentro de mis artistas favoritos están Kendrick Lamar, Kanye West y Frankie Ruiz. Este portafolio es mi ventana para que me puedan conocer donde fusiono creatividad y profesionalismo. ¡Gracias por explorar mi trabajo y conocer un poco más sobre mí!",
     "image": "myProfile.jpg",
     "tech_stacks": ["devicon:python", "ph:file-sql", "devicon:fastapi", "devicon:react"]
   },

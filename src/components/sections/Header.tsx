@@ -15,7 +15,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="h-[650px] w-[100%] bg-yellow dark:bg-[#494949]">
+      <header className="h-[650px] w-[100%] bg-[#9dc9ac] dark:bg-[#494949]">
 
         <div className="flex gap-5 absolute right-2 top-2">
           <Icon
@@ -40,7 +40,7 @@ const Header = () => {
             <Switch
               checked={darkTheme}
               onChange={toggleTheme}
-              offColor="#baaa80"
+              offColor="#919167"
               onColor="#353535"
               className="react-switch mx-auto"
               width={90}
@@ -65,7 +65,7 @@ const Header = () => {
           <div className="grid h-full">
             <div>
               <Icon
-                className="text-gray-dark"
+                className="text-[#fffec7]"
                 icon="la:laptop-code"
                 style={{
                   height: "100%",
@@ -75,9 +75,9 @@ const Header = () => {
             </div>
           </div>
           
-          <div className="flex h-full flex-col items-center justify-center gap-5 w-60">
+          <div className="flex h-full flex-col items-center justify-center gap-5 w-70">
             
-            <h1 className="text-4xl font-bold text-gray-dark dark:text-white">
+            <h1 className="text-5xl font-bold text-[#fffec7] dark:text-white">
               {t("basic_info.name")}
             </h1>
 
@@ -87,7 +87,7 @@ const Header = () => {
               )}
               wrapper="span"
               speed={50}
-              className="text-regular text-2x1 text-gray-dark dark:text-white"
+              className="text-3x1 text-[#fffec7] dark:text-white"
               repeat={Infinity}
             />
 
